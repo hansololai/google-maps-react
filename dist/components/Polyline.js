@@ -134,7 +134,8 @@
             path = _props.path,
             strokeColor = _props.strokeColor,
             strokeOpacity = _props.strokeOpacity,
-            strokeWeight = _props.strokeWeight;
+            strokeWeight = _props.strokeWeight,
+            icons = _props.icons;
 
 
         if (!google) {
@@ -146,7 +147,8 @@
           path: path,
           strokeColor: strokeColor,
           strokeOpacity: strokeOpacity,
-          strokeWeight: strokeWeight
+          strokeWeight: strokeWeight,
+          icons: icons,
         };
 
         this.polyline = new google.maps.Polyline(params);
