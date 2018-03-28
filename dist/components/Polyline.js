@@ -131,7 +131,7 @@
         var _props = this.props,
             map = _props.map,
             google = _props.google,
-            paths = _props.paths,
+            path = _props.path,
             strokeColor = _props.strokeColor,
             strokeOpacity = _props.strokeOpacity,
             strokeWeight = _props.strokeWeight;
@@ -143,7 +143,7 @@
 
         var params = {
           map: map,
-          paths: paths,
+          path: path,
           strokeColor: strokeColor,
           strokeOpacity: strokeOpacity,
           strokeWeight: strokeWeight
